@@ -44,10 +44,10 @@ clipBehavior: Clip.none,
             child: Container(
               width: getWidth(context) * 0.32,
                 decoration: BoxDecoration(
-                  color: Colors.greenAccent,
+                  color: Colors.greenAccent.withValues(alpha: 0.30,),
                   borderRadius: BorderRadius.circular(20)
                 ),
-                child: TextWidget(Text: "travel Blogger", textsize: 17, fw: FontWeight.w400))),
+                child: TextWidget(Text: "travel Blogger", textsize: 17, fw: FontWeight.w400 ))),
 
       ],
     );
